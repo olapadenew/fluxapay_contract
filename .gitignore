@@ -14,8 +14,6 @@ fluxapay/test_snapshots
 .worktrees/
 
 # Environment variables (do not commit secrets)
-.env
-.env.local
 # Written by scripts/deploy-testnet.sh and scripts/onboard.sh, and holds a
 # deployer/merchant secret key (Issue #818).
 .env.testnet
@@ -27,3 +25,4 @@ dist
 
 # actionlint binary (installed at CI runtime via rhysd/actionlint action)
 /actionlint
+config.bat
